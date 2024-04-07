@@ -1,0 +1,90 @@
+/* index.css */
+.filter {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+  }
+  
+  .filter button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-options {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .checkbox-options label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-options h4 {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-options select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+ 
+  .customize-container input{
+    width:20px;
+    height:20px;
+   
+    
+  } 
+  
+  .checkbox-options h4{
+    text-decoration: underline;
+    color:grey;
+  }
+  .customize-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+  
+  @media screen and (max-width:567px){
+    .customize-container label{
+        font-size: 10px;
+
+    }
+    .customize-container input{
+        width:12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .customize-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkbox-options h4{
+        font-size:10px;
+    }
+  
+  .checkbox-options label{
+    font-size: 10px;
+
+  }
+  .dropdown-options h4{
+    font-size: 10px;
+    color:grey;
+  }
+  
+  
+}
