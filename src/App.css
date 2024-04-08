@@ -47,6 +47,12 @@
  
    
 }
+.filter-button{
+  border-top:none;
+  border-bottom: none;
+  border-right:none;
+  border-left:none;
+}
 .filters-top-section{
   display: flex;
   justify-content: space-between;
